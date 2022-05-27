@@ -1,0 +1,9 @@
+./tools/dist_train.sh configs/tagging/ourgnn/ourgnn_l2_wo_topic_apparel.py 1 --validate --test-best
+./tools/dist_train.sh configs/tagging/ourgnn/ourgnn_l2_wo_topic_cosmetic.py 1 --validate --test-best
+./tools/dist_train.sh configs/tagging/ourgnn/ourgnn_l2_wo_topic_food.py 1 --validate --test-best
+./tools/dist_train.sh configs/tagging/ourgnn/ourgnn_l2_wo_follow_apparel.py 1 --validate --test-best
+./tools/dist_train.sh configs/tagging/ourgnn/ourgnn_l2_wo_follow_cosmetic.py 1 --validate --test-best
+./tools/dist_train.sh configs/tagging/ourgnn/ourgnn_l2_wo_follow_food.py 1 --validate --test-best
+./tools/dist_train.sh configs/tagging/ourgnn/ourgnn_l2_wo_topic_follow_apparel.py 1 --validate --test-best
+./tools/dist_train.sh configs/tagging/ourgnn/ourgnn_l2_wo_topic_follow_cosmetic.py 1 --validate --test-best
+./tools/dist_train.sh configs/tagging/ourgnn/ourgnn_l2_wo_topic_follow_food.py 1 --validate --test-best
